@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Help me, please!<br><span>¡Ayudame, por favor!</span>',
+      '<i>Help me, please!</i><br><span>¡Ayudame, por favor!</span>',
     descripcionCurso:
       'El componente formativo inicial para este tercer nivel está destinado al desarrollo de temáticas sobre indicaciones en la ciudad, preposiciones de lugar, verbos modales, entre otras,  que le permiten resaltar los conocimientos de la lengua inglesa de acuerdo con las necesidades sociales y laborales establecidas en el Marco Común Europeo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
