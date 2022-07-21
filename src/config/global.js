@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      '<i>Help me, please!</i><br><span>¡Ayudame, por favor!</span>',
+      '<i>Help me, please!</i><br><span>¡Ayúdame, por favor!</span>',
     descripcionCurso:
       'El componente formativo inicial para este tercer nivel está destinado al desarrollo de temáticas sobre indicaciones en la ciudad, preposiciones de lugar, verbos modales, entre otras,  que le permiten resaltar los conocimientos de la lengua inglesa de acuerdo con las necesidades sociales y laborales establecidas en el Marco Común Europeo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -326,7 +326,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

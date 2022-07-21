@@ -145,7 +145,7 @@
 
           .row.justify-content-center.align-items-center(numero="4" titulo="En singular")
             .col-11
-              p Cuando se trata de una persona, animal u objeto, se emplea There is.       
+              p Cuando se trata de una persona, animal u objeto, se emplea #[i There is].       
               .row.justify-content-center.align-items-center
                 .col-lg-3.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/13.svg', alt='')       
@@ -209,7 +209,7 @@
 
           .row.justify-content-center.align-items-center(numero="5" titulo="En plural")
             .col-11
-              p Cuando se trata de #[b varias] personas, animales u objetos, se utiliza There are.      
+              p Cuando se trata de #[b varias] personas, animales u objetos, se utiliza #[i There are].      
               .row.justify-content-center.align-items-center
                 .col-lg-3.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/19.svg', alt='')       

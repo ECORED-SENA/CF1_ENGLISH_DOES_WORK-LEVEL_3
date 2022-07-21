@@ -621,7 +621,7 @@
 
                     TarjetaAudio.color-acento-contenido.bg-white.mb-4(
                       texto="I could swim, but I couldn’t ride a bike when I was nine years old."
-                      :audio="require('@/assets/curso/audios/5.2/1.mp3')"
+                      :audio="require('@/assets/curso/audios/5.2/2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )     
                     p Cuando tenía nueve años, podía nadar, pero no podía montar en bici.
@@ -634,7 +634,7 @@
 
                     TarjetaAudio.color-acento-contenido.bg-white.mb-4(
                       texto="You can play with Michelle after you do your homework. "
-                      :audio="require('@/assets/curso/audios/5.2/1.mp3')"
+                      :audio="require('@/assets/curso/audios/5.2/3.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )     
                     p Tu puedes jugar con Michelle cuando hagas tu tarea.
@@ -647,7 +647,7 @@
 
                     TarjetaAudio.color-acento-contenido.bg-white.mb-4(
                       texto="We could go somewhere tonight."
-                      :audio="require('@/assets/curso/audios/5.2/1.mp3')"
+                      :audio="require('@/assets/curso/audios/5.2/4.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )     
                     p Podríamos ir a algún lado esta noche.

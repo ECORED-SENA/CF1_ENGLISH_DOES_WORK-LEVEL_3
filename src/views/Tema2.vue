@@ -16,7 +16,7 @@
               .imagen-absolute1
                 img.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img38.svg', alt='')
             .col-lg-9
-              p(data-aos="fade-down").mb-0.ps-3 The desk is in front of the blackboard / El escritorio está frente a la pizarra; o para indicar la ubicación de lugares, por ejemplo: The bank is next to the hospital / El banco está al lado del hospital.       
+              p(data-aos="fade-down").mb-0.ps-3 #[i The desk is in front of the blackboard] / El escritorio está frente a la pizarra; o para indicar la ubicación de lugares, por ejemplo: #[i The bank is next to the hospital] / El banco está al lado del hospital.       
       .col-lg-4
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img39.svg', alt='')
 
@@ -55,7 +55,7 @@
                 .col-lg-6
                   .text-center
                     h5.r Preposición de lugar
-                    p aT
+                    p AT
                     h5.r Significado
                     p En, al lado de, junto a
 
@@ -436,13 +436,13 @@ export default {
           textoIng: 'Matthew, do you know where my laptop is? I can’t find it.',
           textoEsp:
             'Matthew, ¿sabes dónde está mi laptop? No puedo encontrarlo.',
-          audio: require('@/assets/curso/audios/2.2/14.mp3'),
+          audio: require('@/assets/curso/audios/actividad/1.mp3'),
         },
         {
           personaje: 'Matthew',
           textoIng: 'Did you check *** the bed?',
           textoEsp: '¿Revisaste *** de la cama?.',
-          audio: require('@/assets/curso/audios/2.2/14.mp3'),
+          audio: require('@/assets/curso/audios/actividad/2.mp3'),
           palabra: 'under',
         },
         {
@@ -451,14 +451,14 @@ export default {
             'Yes, I did. I checked *** the bed, next to the sofa and on the desk.',
           textoEsp:
             'Sí, lo hice. Revisé *** de la cama, al lado del sofá y en el escritorio.',
-          audio: require('@/assets/curso/audios/2.2/14.mp3'),
+          audio: require('@/assets/curso/audios/actividad/3.mp3'),
           palabra: 'behind',
         },
         {
           personaje: 'Matthew',
           textoIng: 'Hmm, look! It is *** that book and the suitcase.',
           textoEsp: '¡Mmm, mira! Está *** ese libro y la maleta.',
-          audio: require('@/assets/curso/audios/2.2/14.mp3'),
+          audio: require('@/assets/curso/audios/actividad/4.mp3'),
           palabra: 'between',
         },
         {
@@ -467,13 +467,13 @@ export default {
             'No, that’s your laptop. I need my laptop to finish a report.',
           textoEsp:
             'No, ese es tu laptop. Necesito mi laptop para terminar un informe.',
-          audio: require('@/assets/curso/audios/2.2/14.mp3'),
+          audio: require('@/assets/curso/audios/actividad/5.mp3'),
         },
         {
           personaje: 'Matthew',
           textoIng: 'Did you check *** the bathroom?',
           textoEsp: '¿Revisaste *** el baño?.',
-          audio: require('@/assets/curso/audios/2.2/14.mp3'),
+          audio: require('@/assets/curso/audios/actividad/6.mp3'),
           palabra: 'in',
         },
         {
@@ -481,7 +481,7 @@ export default {
           textoIng:
             'Yeah. Ah, I just remembered where it is. It’s in my handbag.',
           textoEsp: 'Sí. Ah, acabo de recordar dónde está. Está en mi bolso.',
-          audio: require('@/assets/curso/audios/2.2/14.mp3'),
+          audio: require('@/assets/curso/audios/actividad/7.mp3'),
         },
       ],
     },

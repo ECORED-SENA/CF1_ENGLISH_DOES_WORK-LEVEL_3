@@ -168,7 +168,7 @@
           h5.r Tipo de oración
           p Negativa (-)
           h5.r Estructura
-          p Sujeto + auxiliar do/does + not + complemento
+          p Sujeto + auxiliar #[i do/does] + not + complemento
           Traduccion.color-primario(:dialogo="traduccion1")
 
       .col-lg-4.bgt.p-4
@@ -177,7 +177,7 @@
           h5.r Tipo de oración
           p Interrogativa (?)
           h5.r Estructura
-          p Auxiliar do/does + sujeto + verbo + complemento + ?
+          p Auxiliar #[i do/does] + sujeto + verbo + complemento + ?
           Traduccion.color-primario(:dialogo="traduccion2")
     .bg12.p-5
       p(data-aos="fade-down").mb-5.text-center Ahora, escuche algunos ejemplos y repase la estructura básica: 
@@ -221,7 +221,7 @@
           .tarjeta.tarjeta-bg.card11.p-3.w-100.crd.crd--100
             Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/3/18.mp3')")
             p.text-center.r
-              span.fst-italic.fw-bold you don’t wash the dishes.
+              span.fst-italic.fw-bold You don’t wash the dishes.
 
         .crd.crd--100.tarjeta.p-4.bg11.p-3
           .tarjeta.tarjeta-bg.card11.p-3.w-100.crd.crd--100
@@ -274,7 +274,7 @@
             h4.r Tercera persona “S”
             p Cuando se emplea el tiempo presente, los verbos en la tercera persona del singular añaden una “s”:
             h5.r For example:
-            p Con el verbo “to eat”, la tercera persona del singular añade la “s”:
+            p Con el verbo “#[i to eat]”, la tercera persona del singular añade la “s”:
             .row.justify-content-center.align-items-center
               .col-lg-6
                 TraduccionAudio.color-primario(:dialogo="dialogo1")
@@ -294,12 +294,12 @@
         .row.justify-content-center.align-items-center.bg13.py-4.mx-0
           .col-11
             h4.r Según terminación “ES”
-            p Es ideal tener claro que, cuando los verbos terminan en -o, -sh, -ch, -ss, -x, -y, -z, se les debe añadir “es” al final. Por ejemplo: con el verbo que termina en #[b o], como “to go”, la tercera persona del singular añade “es”.        
+            p Es ideal tener claro que, cuando los verbos terminan en -o, -sh, -ch, -ss, -x, -y, -z, se les debe añadir “es” al final. Por ejemplo: con el verbo que termina en #[b o], como “#[i to go]”, la tercera persona del singular añade “es”.        
           .col-lg-4.d-none.d-lg-block
             img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img80.png', alt='')
           .col-lg-6
             h5.r For example:
-            p Con el verbo “to eat”, la tercera persona del singular añade la “s”:  
+            p Con el verbo “#[i to eat]”, la tercera persona del singular añade la “s”:  
             .row.justify-content-center.align-items-center
               .col-lg-6
                 TraduccionAudio.color-primario(:dialogo="dialogo6")
@@ -319,7 +319,7 @@
             img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img81.png', alt='')
           .col-lg-6
             h5.r For example:
-            p Con el verbo “to eat”, la tercera persona del singular añade la “s”:              
+            p Con el verbo “#[i to eat]”, la tercera persona del singular añade la “s”:              
             .row.justify-content-center.align-items-center
               .col-lg-6
                 TraduccionAudio.color-primario(:dialogo="dialogo11")
@@ -344,7 +344,7 @@
       .col-lg-4.p-0
         img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img82.png', alt='')
       .col-lg-8
-        p(data-aos="fade-down").mb-4 El verbo “to be” es básico y permite expresar dos significados: ser y estar, dependiendo del resto de la oración de la cual forma parte, así como del pronombre al cual acompaña en la misma. Puede expresarse en forma afirmativa, negativa o interrogativa. Por ser un verbo irregular, debe atenderse en cada caso a su estructura, por lo que puede validar la conjugación, forma y ejemplo a través del siguiente documento: 
+        p(data-aos="fade-down").mb-4 El verbo “#[i to be]” es básico y permite expresar dos significados: ser y estar, dependiendo del resto de la oración de la cual forma parte, así como del pronombre al cual acompaña en la misma. Puede expresarse en forma afirmativa, negativa o interrogativa. Por ser un verbo irregular, debe atenderse en cada caso a su estructura, por lo que puede validar la conjugación, forma y ejemplo a través del siguiente documento: 
         .row.justify-content-start
           .col-lg-6
             a.anexo.mb-4(:href="obtenerLink('downloads/Verbo_To_be_ser_o_estar.pdf')" target="_blank")
@@ -372,8 +372,8 @@
             .col-lg-10
               .bg15.ps-5.me-5
                 p(data-aos="fade-down").p-5.my-1 
-                  span.r #[b Mary is eating her lunch]. 
-                  span En este caso el verbo principal es to eat y se le añade ing = eating. / Mary está comiendo su almuerzo.
+                  span.r #[i Mary #[b is eating] her lunch]. 
+                  span En este caso el verbo principal es #[i #[b  to eat]] y se le añade #[i #[b  ing = eating]]. / Mary está comiendo su almuerzo.
       .col-lg-4
         img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img83.png', alt='')
 
@@ -395,29 +395,29 @@
                 td Complemento
               tr
                 td.tb1bg1(rowspan='3') Singular
-                td.tb1bg1.tb1bd 1ra
+                td.tb1bg1.tb1bd 1<sup>a</sup>
                 td.tb1bd I
                 td.tb1bd am
                 td(rowspan='6') <i>drink+ing= drinking</i>
                 td(rowspan='6') <i>orange juice.</i>
               tr
-                td.tb1bg1.tb1bd 2da
+                td.tb1bg1.tb1bd 2<sup>a</sup>
                 td.tb1bd You
                 td.tb1bd are
               tr
-                td.tb1bg1 3ra
+                td.tb1bg1 3<sup>a</sup>
                 td He, She, It
                 td is
               tr
                 td.tb1bg1(rowspan='3') Plural
-                td.tb1bg1.tb1bd 1ra
+                td.tb1bg1.tb1bd 1<sup>a</sup>
                 td.tb1bd we
                 td(rowspan='3') are
               tr
-                td.tb1bg1.tb1bd 2da
+                td.tb1bg1.tb1bd 2<sup>a</sup>
                 td.tb1bd you            
               tr
-                td.tb1bg1 3ra
+                td.tb1bg1 3<sup>a</sup>
                 td they
 
     .bg16.p-5.mb-5
@@ -662,7 +662,7 @@ export default {
       {
         textoIng:
           '<i>(To pass)</i> - Cleo pass</i>es the exam with a good grade. ',
-        textoEsp: 'Cleo pasa el examen con buena',
+        textoEsp: 'Cleo pasa el examen con buena nota.',
         audio: require('@/assets/curso/audios/3/30.mp3'),
       },
     ],

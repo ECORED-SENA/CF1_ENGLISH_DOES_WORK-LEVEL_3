@@ -27,7 +27,7 @@
         img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/img3.png', alt='')
         p(data-aos="fade-down").text-center ¿Dónde está el cine? /  
           span.r Where is the cinema?
-        p(data-aos="fade-down") #[b Se responde:] está frente al restaurante Milan. / It’s in front of Milan restaurant.
+        p(data-aos="fade-down") #[b Se responde:] está frente al restaurante Milan / It’s in front of Milan restaurant.
                
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -243,7 +243,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-4
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                    texto="<i><span1>The restaurant It’s is</span1> <span>in front of</span> <span1>the theater.</span1></i>"
+                    texto="<i><span1>The restaurant is</span1> <span>in front of</span> <span1>the theater.</span1></i>"
                     :audio="require('@/assets/curso/audios/1.2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
@@ -255,7 +255,7 @@
               .row.justify-content-center.align-items-center.my-5
                 .col-lg-4
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                    texto="<i><span1>The restaurant It’s is</span1> <span> next to</span> <span1>the candy store.</span1></i>"
+                    texto="<i><span1>The restaurant is</span1> <span> next to</span> <span1>the candy store.</span1></i>"
                     :audio="require('@/assets/curso/audios/1.2/2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
@@ -268,7 +268,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-4
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                    texto="<i><span1>The restaurant It’s is</span1> <span>across</span> <span1>the street from the park.</span1></i>"
+                    texto="<i><span1>The restaurant is</span1> <span>across</span> <span1>the street from the park.</span1></i>"
                     :audio="require('@/assets/curso/audios/1.2/3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
@@ -292,8 +292,7 @@
                       )
                   
                     .col-lg-6
-                      p La biblioteca está al otro lado de la calle del parque. FALTA AUDIO
-
+                      p Está al otro lado de la calle del parque.
                   .row.justify-content-center.align-items-center
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
@@ -303,7 +302,8 @@
                       )
                   
                     .col-lg-6
-                      p Está al otro lado de la calle del parque.
+                      p La biblioteca está al otro lado de la calle del parque. FALTA AUDIO
+                      
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img34.svg', alt='')
 
@@ -471,7 +471,7 @@ export default {
         {
           personaje: 'Sue',
           textoIng:
-            'Sure. Go ahead!  It´s across the street from the park, between the museum and the police station.',
+            'Sure. Go ahead!  It’s across the street from the park, between the museum and the police station.',
           audio: require('@/assets/curso/audios/1.2/Sue_Jim/5.mp3'),
         },
         {
