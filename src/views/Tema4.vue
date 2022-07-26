@@ -283,19 +283,19 @@
             tbody
               tr
                 td.bdlt
-                td.t2gb.t2br(colspan="2") There + Verbo “to be” (presente)
+                td.t2gb.t2br(colspan="2") There + Verbo “<i>to be</i>” (presente)
                 td.t2gb.t2br Objeto
                 td.t2gb Traducción
               tr
                 td Singular
-                td(rowspan='2') There
-                td is
-                td a rabbit.<br>one pencil.<br>a big parcel.
+                td(rowspan='2') <i>There</i>
+                td <i>is</i>
+                td <i>a rabbit.<br>one pencil.<br>a big parcel.</i>
                 td Hay un conejo<br> Hay un lápiz.<br> Hay un gran paquete.
               tr
                 td Plural
-                td Are
-                td some rabbits.<br>a lot of people.<br>many stones.
+                td <i>Are</i>
+                td <i>some rabbits.<br>a lot of people.<br>many stones.</i>
                 td Hay algunos conejos.<br> Hay muchas personas.<br> Hay      
       .col-lg-5
         .row.justify-content-center.align-items-center.bg19

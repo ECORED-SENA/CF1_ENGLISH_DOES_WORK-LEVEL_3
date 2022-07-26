@@ -248,7 +248,8 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                 .col-lg-4
-                  p El restaurante está en frente del teatro. Está en frente del teatro.              
+                  p El restaurante está en frente del teatro. 
+                  p Está en frente del teatro.              
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img31.svg', alt='')  
 
@@ -286,7 +287,7 @@
                   .row.justify-content-center.align-items-center.mb-5
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                        texto="<i><span1>It´s</span1> <span>across</span> <span1>the street from</span1> <span>the park.</span></i>"
+                        texto="<i><span1>It's</span1> <span>across</span> <span1>the street from</span1> <span>the park.</span></i>"
                         :audio="require('@/assets/curso/audios/1.2/4.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
@@ -316,7 +317,7 @@
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>The hospital is</span1> <span>across</span> <span1>the street from</span1> <span>the park, between</span> <span1>the</span1> <span>bank</span> <span1>and the</span1> <span>theater.</span></i>"
-                        :audio="require('@/assets/curso/audios/1.2/5.mp3')"
+                        :audio="require('@/assets/curso/audios/1.2/5_1.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
@@ -326,8 +327,8 @@
                   .row.justify-content-center.align-items-center
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                        texto="<i><span1>It´s</span1> <span>across</span> <span1>the street from</span1> <span>the park, between</span> <span1>the</span1> <span>bank</span> <span1>and the</span1> <span>theater.</span></i>"
-                        :audio="require('@/assets/curso/audios/1.2/5.mp3')"
+                        texto="<i><span1>It's</span1> <span>across</span> <span1>the street from</span1> <span>the park, between</span> <span1>the</span1> <span>bank</span> <span1>and the</span1> <span>theater.</span></i>"
+                        :audio="require('@/assets/curso/audios/1.2/5_2.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
@@ -355,7 +356,7 @@
                   .row.justify-content-center.align-items-center
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                        texto="<i><span1>It´s</span1> <span>across</span> <span1>the street from the park,</span1> <span>next to</span> <span1>the Post office.</span1></i>"
+                        texto="<i><span1>It's</span1> <span>across</span> <span1>the street from the park,</span1> <span>next to</span> <span1>the Post office.</span1></i>"
                         :audio="require('@/assets/curso/audios/1.2/6.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
@@ -384,7 +385,7 @@
                   .row.justify-content-center.align-items-center
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                        texto="<i><span1>It´s</span1> <span>across</span> <span1>the street from the library, in front of the Police station.</span1></i>"
+                        texto="<i><span1>It's</span1> <span>across</span> <span1>the street from the library, in front of the Police station.</span1></i>"
                         :audio="require('@/assets/curso/audios/1.2/7.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )

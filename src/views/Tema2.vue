@@ -55,7 +55,7 @@
                 .col-lg-6
                   .text-center
                     h5.r Preposición de lugar
-                    p AT
+                    p At
                     h5.r Significado
                     p En, al lado de, junto a
 
@@ -354,7 +354,7 @@
             )                    
             p.mb-0  Hay una manzana en el morral.
 
-          .tarjeta.color-acento-contenido.p-3(x="25%" y="79%" numero="+")
+          .tarjeta.color-acento-contenido.p-3(x="15%" y="70%" numero="+")
             TarjetaAudio.color-acento-contenido.bg-white.my-3(
               texto="<i><span1>The ball is beside the table.</span1></i>"
               :audio="require('@/assets/curso/audios/2.2/9.mp3')"
@@ -442,7 +442,7 @@ export default {
           personaje: 'Matthew',
           textoIng: 'Did you check *** the bed?',
           textoEsp: '¿Revisaste *** de la cama?.',
-          audio: require('@/assets/curso/audios/actividad/2.mp3'),
+          audio: require('@/assets/curso/audios/actividad/6.mp3'),
           palabra: 'under',
         },
         {
@@ -473,7 +473,7 @@ export default {
           personaje: 'Matthew',
           textoIng: 'Did you check *** the bathroom?',
           textoEsp: '¿Revisaste *** el baño?.',
-          audio: require('@/assets/curso/audios/actividad/6.mp3'),
+          audio: require('@/assets/curso/audios/actividad/2.mp3'),
           palabra: 'in',
         },
         {
