@@ -288,7 +288,7 @@
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>It's</span1> <span>across</span> <span1>the street from</span1> <span>the park.</span></i>"
-                        :audio="require('@/assets/curso/audios/1.2/4.mp3')"
+                        :audio="require('@/assets/curso/audios/1.2/4_1.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
@@ -298,7 +298,7 @@
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>The library is</span1> <span>across</span> <span1>the street from</span1> <span>the park.</span></i>"
-                        :audio="require('@/assets/curso/audios/1.2/4.mp3')"
+                        :audio="require('@/assets/curso/audios/1.2/4_2.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
@@ -346,7 +346,7 @@
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>The Police Station is</span1> <span>across</span> <span1>the street from the park,</span1> <span>next to</span> <span1>the Post office.</span1></i>"
-                        :audio="require('@/assets/curso/audios/1.2/6.mp3')"
+                        :audio="require('@/assets/curso/audios/1.2/6_1.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
@@ -357,7 +357,7 @@
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>It's</span1> <span>across</span> <span1>the street from the park,</span1> <span>next to</span> <span1>the Post office.</span1></i>"
-                        :audio="require('@/assets/curso/audios/1.2/6.mp3')"
+                        :audio="require('@/assets/curso/audios/1.2/6_2.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
@@ -375,7 +375,7 @@
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>The gym is</span1> <span>across</span> <span1>the street from the library, in front of the Police station.</span1></i>"
-                        :audio="require('@/assets/curso/audios/1.2/7.mp3')"
+                        :audio="require('@/assets/curso/audios/1.2/7_1.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
@@ -386,7 +386,7 @@
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>It's</span1> <span>across</span> <span1>the street from the library, in front of the Police station.</span1></i>"
-                        :audio="require('@/assets/curso/audios/1.2/7.mp3')"
+                        :audio="require('@/assets/curso/audios/1.2/7_2.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                   
