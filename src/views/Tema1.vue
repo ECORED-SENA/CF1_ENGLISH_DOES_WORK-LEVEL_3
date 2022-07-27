@@ -333,7 +333,7 @@
                       )
                   
                     .col-lg-6
-                      p Está al otro lado de la calle del parque, entre el banco y el teatro. FALTA AUDIO
+                      p Está al otro lado de la calle del parque, entre el banco y el teatro.
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img35.svg', alt='')
 
@@ -351,7 +351,7 @@
                       )
                   
                     .col-lg-6
-                      p El gimnasio está al otro lado de la calle de la biblioteca, en frente de la Estación de policía.
+                      p La estación de policía está al otro lado de la calle del parque, al lado de la oficina de correos
 
                   .row.justify-content-center.align-items-center
                     .col-lg-6
@@ -362,7 +362,7 @@
                       )
                   
                     .col-lg-6
-                      p Está al otro lado de la calle de la biblioteca, en frente de la Estación de policía. FALTA AUDIO
+                      p Está al otro lado de la calle del parque, al lado de la oficina de correos
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img36.svg', alt='')  
 
