@@ -115,10 +115,10 @@
 
                     TarjetaAudio.color-acento-contenido.bg-white.my-3(
                       texto="<i><span1>The girl is behind the desk.</span1></i>"
-                      :audio="require('@/assets/curso/audios/2.1/4.mp3')"
+                      :audio="require('@/assets/curso/audios/2.1/5.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )                    
-                    p  La chica está detrás del escritorio. FALTA AUDIO
+                    p  La chica está detrás del escritorio.
 
                 .col-lg-5
                   img.img-a.img-t(src='@/assets/curso/temas/img46.png', alt='')
@@ -284,10 +284,10 @@
             img.img-a.img-t(src='@/assets/curso/temas/img56.svg' alt='AvatarTop')
         TarjetaAudio.color-acento-contenido.bg-white.my-3(
           texto="<i><span1>The computer is on the desk.</span1></i>"
-          :audio="require('@/assets/curso/audios/2.2/2.mp3')"
+          :audio="require('@/assets/curso/audios/2.2/3.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )                    
-        p La computadora está sobre el escritorio. FALTA AUDIO
+        p La computadora está sobre el escritorio.
 
       .crd.crd--100.tarjeta.bgw.p-4.b-sw
         .row.justify-content-center.mb-3

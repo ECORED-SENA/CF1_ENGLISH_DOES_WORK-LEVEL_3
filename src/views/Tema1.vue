@@ -241,41 +241,71 @@
               h4 Restaurant
               p.mb-5 #[b #[i Where is the restaurant?] / ¿Dónde está el restaurante?]
               .row.justify-content-center.align-items-center
-                .col-lg-4
-                  TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                    texto="<i><span1>The restaurant is</span1> <span>in front of</span> <span1>the theater.</span1></i>"
-                    :audio="require('@/assets/curso/audios/1.2/1.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                  )
-                .col-lg-4
-                  p El restaurante está en frente del teatro. 
-                  p Está en frente del teatro.              
+                .col-lg-8             
+                  .row.justify-content-center.align-items-center
+                    .col-lg-6
+                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                        texto="<i><span1>The restaurant is</span1> <span>in front of</span> <span1>the theater.</span1></i>"
+                        :audio="require('@/assets/curso/audios/1.2/1.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                    .col-lg-6
+                      p El restaurante está en frente del teatro. 
+                  .row.justify-content-center.align-items-center
+                    .col-lg-6
+                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                        texto="<i><span1>It's in front of the theater</span1></i>"
+                        :audio="require('@/assets/curso/audios/1.2/1_1.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                    .col-lg-6                  
+                      p Está en frente del teatro.              
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img31.svg', alt='')  
 
               .row.justify-content-center.align-items-center.my-5
-                .col-lg-4
-                  TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                    texto="<i><span1>The restaurant is</span1> <span> next to</span> <span1>the candy store.</span1></i>"
-                    :audio="require('@/assets/curso/audios/1.2/2.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                  )
-                .col-lg-4
-                  p El restaurante está al lado de la tienda de golosinas.
-                  p Está al lado de la tienda de golosinas.             
+                .col-lg-8    
+                  .row.justify-content-center.align-items-center
+                    .col-lg-6
+                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                        texto="<i><span1>The restaurant is</span1> <span> next to</span> <span1>the candy store.</span1></i>"
+                        :audio="require('@/assets/curso/audios/1.2/2.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                    .col-lg-6
+                      p El restaurante está al lado de la tienda de golosinas.
+                  .row.justify-content-center.align-items-center
+                    .col-lg-6
+                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                        texto="<i><span1>It's next to the candy store</span1></i>"
+                        :audio="require('@/assets/curso/audios/1.2/1_2.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                    .col-lg-6                  
+                      p Está al lado de la tienda de golosinas.             
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img32.svg', alt='')  
 
               .row.justify-content-center.align-items-center
-                .col-lg-4
-                  TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                    texto="<i><span1>The restaurant is</span1> <span>across</span> <span1>the street from the park.</span1></i>"
-                    :audio="require('@/assets/curso/audios/1.2/3.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                  )
-                .col-lg-4
-                  p El restaurante está al otro lado de la calle del parque.
-                  p Está al otro lado de la calle del parque.            
+                .col-lg-8  
+                  .row.justify-content-center.align-items-center
+                    .col-lg-6
+                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                        texto="<i><span1>The restaurant is</span1> <span>across</span> <span1>the street from the park.</span1></i>"
+                        :audio="require('@/assets/curso/audios/1.2/3.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                    .col-lg-6
+                      p El restaurante está al otro lado de la calle del parque.
+                  .row.justify-content-center.align-items-center
+                    .col-lg-6
+                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                        texto="<i><span1>It's across the street from the park</span1></i>"
+                        :audio="require('@/assets/curso/audios/1.2/1_3.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                    .col-lg-6                  
+                      p Está al otro lado de la calle del parque.            
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img33.svg', alt='')  
 
@@ -287,6 +317,16 @@
                   .row.justify-content-center.align-items-center.mb-5
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+                        texto="<i><span1>The library is</span1> <span>across</span> <span1>the street from</span1> <span>the park.</span></i>"
+                        :audio="require('@/assets/curso/audios/1.2/4_2.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                  
+                    .col-lg-6
+                      p La biblioteca está al otro lado de la calle del parque.                
+                  .row.justify-content-center.align-items-center
+                    .col-lg-6
+                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                         texto="<i><span1>It's</span1> <span>across</span> <span1>the street from</span1> <span>the park.</span></i>"
                         :audio="require('@/assets/curso/audios/1.2/4_1.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -294,16 +334,6 @@
                   
                     .col-lg-6
                       p Está al otro lado de la calle del parque.
-                  .row.justify-content-center.align-items-center
-                    .col-lg-6
-                      TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                        texto="<i><span1>The library is</span1> <span>across</span> <span1>the street from</span1> <span>the park.</span></i>"
-                        :audio="require('@/assets/curso/audios/1.2/4_2.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                      )
-                  
-                    .col-lg-6
-                      p La biblioteca está al otro lado de la calle del parque. FALTA AUDIO
                       
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img34.svg', alt='')
@@ -391,7 +421,7 @@
                       )
                   
                     .col-lg-6
-                      p Está al otro lado de la calle de la biblioteca, en frente de la Estación de policía. FALTA AUDIO
+                      p Está al otro lado de la calle de la biblioteca, en frente de la Estación de policía.
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img37.svg', alt='')                                                                                                                          
                                                           

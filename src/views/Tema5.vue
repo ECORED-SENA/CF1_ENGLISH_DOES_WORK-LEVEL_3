@@ -308,8 +308,8 @@
               tr
                 td(colspan='4').px-5
                   TarjetaAudio.color-acento-contenido.bg-white(
-                    texto="Why do they play together? FALTA AUDIO"
-                    :audio="require('@/assets/curso/audios/5.1/11.mp3')"
+                    texto="Why do they play together?"
+                    :audio="require('@/assets/curso/audios/5.1/12.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )                
               tr
@@ -386,8 +386,8 @@
                   .row.justify-content-start.align-items-center
                     .col-lg-10
                         TarjetaAudio.color-acento-contenido.bg-white.my-3(
-                          texto="<i><span1>Why is the store closed?FALTA AUDIO </span1></i>"
-                          :audio="require('@/assets/curso/audios/5.1/19.mp3')"
+                          texto="<i><span1>Why is the store closed?</span1></i>"
+                          :audio="require('@/assets/curso/audios/5.1/19_1.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )                    
                         p ¿Por qué está cerrada la tienda?
@@ -487,8 +487,8 @@
               tr
                 td(colspan='4').px-5
                   TarjetaAudio.color-acento-contenido.bg-white(
-                    texto="Who is the boss in this office? FALTA AUDIO "
-                    :audio="require('@/assets/curso/audios/5.1/24.mp3')"
+                    texto="Who is the boss in this office?"
+                    :audio="require('@/assets/curso/audios/5.1/25.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )                
               tr
@@ -529,8 +529,8 @@
               tr
                 td(colspan='4').px-5
                   TarjetaAudio.color-acento-contenido.bg-white(
-                    texto="Why is the girl alone in the garden?FALTA AUDIO "
-                    :audio="require('@/assets/curso/audios/5.1/27.mp3')"
+                    texto="Why is the girl alone in the garden?"
+                    :audio="require('@/assets/curso/audios/5.1/28.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )                
               tr

@@ -510,10 +510,10 @@
             h4.mb-0.text-white Forma afirmativa
           .p-3
             img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/img95.svg', alt='')
-            p(data-aos="fade-down").mb-4 Sujeto + Verbo to be + Verbo en gerundio + Complemento
+            p(data-aos="fade-down").mb-4 Sujeto + Verbo #[i to be] + Verbo en gerundio + Complemento
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-              texto="Nelly is waiting for the bus.FALTA AUDIO"
-              :audio="require('@/assets/curso/audios/3/22.mp3')"
+              texto="Nelly is waiting for the bus"
+              :audio="require('@/assets/curso/audios/3/22_1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )            
             p(data-aos="fade-down") Nelly está esperando el bus.
@@ -524,10 +524,10 @@
             h4.mb-0.text-white Forma negativa
           .p-3
             img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/img96.svg', alt='')
-            p(data-aos="fade-down").mb-4 Sujeto + Verbo to be + not + Verbo en gerundio + Complemento
+            p(data-aos="fade-down").mb-4 Sujeto + Verbo #[i to be] + not + Verbo en gerundio + Complemento
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-              texto="Nelly is not waiting for the bus.FALTA AUDIO"
-              :audio="require('@/assets/curso/audios/3/22.mp3')"
+              texto="Nelly is not waiting for the bus."
+              :audio="require('@/assets/curso/audios/3/22_2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )            
             p(data-aos="fade-down") Nelly no está esperando el bus.
@@ -538,10 +538,10 @@
             h4.mb-0.text-white Forma interrogativa
           .p-3
             img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/img97.svg', alt='')
-            p(data-aos="fade-down").mb-4 Verbo to be + Sujeto + Verbo en gerundio + Complemento + ? 
+            p(data-aos="fade-down").mb-4 Verbo #[i to be] + Sujeto + Verbo en gerundio + Complemento + ? 
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-              texto="Is Nelly waiting for the bus?FALTA AUDIO"
-              :audio="require('@/assets/curso/audios/3/22.mp3')"
+              texto="Is Nelly waiting for the bus?"
+              :audio="require('@/assets/curso/audios/3/22_3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )            
             p(data-aos="fade-down") ¿Está Nelly esperando el bus? 
@@ -635,9 +635,9 @@ export default {
 
     dialogo6: [
       {
-        textoIng: '<i>(To go)</i> - Jimmy go<i>es</i> to school. FALTA AUDIO',
+        textoIng: '<i>(To go)</i> - Jimmy go<i>es</i> to school.',
         textoEsp: 'Jimmy va a la escuela.',
-        audio: require('@/assets/curso/audios/3/28.mp3'),
+        audio: require('@/assets/curso/audios/3/27.mp3'),
       },
     ],
 
@@ -651,10 +651,9 @@ export default {
 
     dialogo8: [
       {
-        textoIng:
-          '<i>(To reach)</i> - He reach<i>es</i> the mark rapidly.FALTA AUDIO ',
+        textoIng: '<i>(To reach)</i> - He reach<i>es</i> the mark rapidly.',
         textoEsp: 'Él alcanza la marca rápidamente.',
-        audio: require('@/assets/curso/audios/3/30.mp3'),
+        audio: require('@/assets/curso/audios/3/29.mp3'),
       },
     ],
 
@@ -678,9 +677,9 @@ export default {
 
     dialogo11: [
       {
-        textoIng: '(To carry) - Mike carries a heavy package.FALTA AUDIO ',
+        textoIng: '(To carry) - Mike carries a heavy package.',
         textoEsp: 'Mike carga un paquete muy pesado.',
-        audio: require('@/assets/curso/audios/3/33.mp3'),
+        audio: require('@/assets/curso/audios/3/32.mp3'),
       },
     ],
 
@@ -694,10 +693,9 @@ export default {
 
     dialogo13: [
       {
-        textoIng:
-          '(To try) - The teacher tries to explain an experiment.FALTA AUDIO',
+        textoIng: '(To try) - The teacher tries to explain an experiment.',
         textoEsp: 'El maestro trata de explicar un experimento.',
-        audio: require('@/assets/curso/audios/3/35.mp3'),
+        audio: require('@/assets/curso/audios/3/34.mp3'),
       },
     ],
 
@@ -711,9 +709,9 @@ export default {
 
     dialogo15: [
       {
-        textoIng: '(To say) - Henry says his prayers.FALTA AUDIO',
+        textoIng: '(To say) - Henry says his prayers.',
         textoEsp: 'Henry dice sus oraciones.',
-        audio: require('@/assets/curso/audios/3/35.mp3'),
+        audio: require('@/assets/curso/audios/3/36.mp3'),
       },
     ],
 
@@ -799,9 +797,9 @@ export default {
 
     dialogo26: [
       {
-        textoIng: '(To run / correr) - Leo is running in the park.FALTA AUDIO',
+        textoIng: '(To run / correr) - Leo is running in the park.',
         textoEsp: 'Leo está corriendo en el parque.',
-        audio: require('@/assets/curso/audios/3.2/10.mp3'),
+        audio: require('@/assets/curso/audios/3.2/11.mp3'),
       },
     ],
 

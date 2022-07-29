@@ -265,8 +265,8 @@
                   img.img-a.img-t(src='@/assets/curso/temas/24.svg', alt='')       
                 .col-lg-9
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                    texto="There are a lot of changes.FALTA AUDIO"
-                    :audio="require('@/assets/curso/audios/4/23.mp3')"
+                    texto="There are a lot of changes."
+                    :audio="require('@/assets/curso/audios/4/24.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )            
                   p.mb-0 Hay muchos cambios.

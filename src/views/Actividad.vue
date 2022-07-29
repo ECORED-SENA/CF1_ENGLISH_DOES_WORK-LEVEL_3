@@ -7,20 +7,98 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/seleccion-multiple.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui. Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
+          h2 Indicando direcciones
+        p.mb-4 #[i Pleas, where is the banck?]
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Opción múltiple
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/01/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
-                
+
+    hr.my-5                
+    
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/arrastrar.svg", alt="")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Preposiciones de lugar
+        p.mb-4 #[i Where are you?] / ¿Dónde estás?
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Arrastrar y soltar
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/02/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
+
+    hr.my-5                        
+
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/seleccion-multiple.svg", alt="")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Estructura gramatical
+        p.mb-4 #[i What are you doing]
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Opción múltiple
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/03/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
+
+    hr.my-5                  
+
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar-espacios.svg", alt="")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Expresión "#[i The-be]"
+        p.mb-4 #[i Is there a parcel for me]
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar frases
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/04/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
+
+    hr.my-5                                                            
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/seleccion-multiple.svg", alt="")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 #[i Wh questions] y verbos modales
+        p.mb-4 #[i What's that?] / ¿Qué es eso?
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Opción múltiple
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/05/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 </template>
 
 <script>
