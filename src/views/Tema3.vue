@@ -168,7 +168,7 @@
           h5.r Tipo de oración
           p Negativa (-)
           h5.r Estructura
-          p Sujeto + auxiliar #[i do/does] + not + complemento
+          p Sujeto + auxiliar #[i do/does] + #[i not] + complemento
           Traduccion.color-primario(:dialogo="traduccion1")
 
       .col-lg-4.bgt.p-4
@@ -524,7 +524,7 @@
             h4.mb-0.text-white Forma negativa
           .p-3
             img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/img96.svg', alt='')
-            p(data-aos="fade-down").mb-4 Sujeto + Verbo #[i to be] + not + Verbo en gerundio + Complemento
+            p(data-aos="fade-down").mb-4 Sujeto + Verbo #[i to be] + #[i not] + Verbo en gerundio + Complemento
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Nelly is not waiting for the bus."
               :audio="require('@/assets/curso/audios/3/22_2.mp3')"

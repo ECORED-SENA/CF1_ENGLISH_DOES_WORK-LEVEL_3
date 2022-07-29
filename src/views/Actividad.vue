@@ -70,8 +70,8 @@
             img(src="@/assets/template/completar-espacios.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Expresión "#[i The-be]"
-        p.mb-4 #[i Is there a parcel for me]
+          h2 Expresión "#[i There-be]"
+        p.mb-4 #[i Is there a parcel for me?]
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
