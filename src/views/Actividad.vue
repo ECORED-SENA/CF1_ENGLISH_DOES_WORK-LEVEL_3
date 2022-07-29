@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Indicando direcciones
-        p.mb-4 #[i Pleas, where is the banck?]
+        p.mb-4 #[i Pleas, where is the bank?]
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
@@ -51,7 +51,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Estructura gramatical
-        p.mb-4 #[i What are you doing]
+        p.mb-4 #[i What are you doing?]
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
