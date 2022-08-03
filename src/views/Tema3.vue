@@ -154,7 +154,7 @@
 
     .row.justify-content-center.align-items-stretch.mx-0
       .col-lg-4.bgt.p-4
-        img.img-a.img-t.mb-4(data-aos='zoom-in-up')(src='@/assets/curso/temas/img74.svg', alt='')
+        img.img-a.img-t.mb-4(src='@/assets/curso/temas/img74.svg', alt='')
         .text-center
           h5.r Tipo de oración
           p Afirmativa (+)
@@ -163,7 +163,7 @@
           Traduccion.color-primario(:dialogo="traduccion")
 
       .col-lg-4.bgt1.p-4
-        img.img-a.img-t.mb-4(data-aos='zoom-in-up')(src='@/assets/curso/temas/img75.svg', alt='')
+        img.img-a.img-t.mb-4(src='@/assets/curso/temas/img75.svg', alt='')
         .text-center
           h5.r Tipo de oración
           p Negativa (-)
@@ -172,7 +172,7 @@
           Traduccion.color-primario(:dialogo="traduccion1")
 
       .col-lg-4.bgt.p-4
-        img.img-a.img-t.mb-4(data-aos='zoom-in-up')(src='@/assets/curso/temas/img76.svg', alt='')
+        img.img-a.img-t.mb-4(src='@/assets/curso/temas/img76.svg', alt='')
         .text-center
           h5.r Tipo de oración
           p Interrogativa (?)
@@ -243,7 +243,7 @@
 
       .row.justify-content-center.align-items-end
         .col-lg-4
-          img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img77.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img77.png', alt='')
           .bgp.text-center.py-4
             h4.g(data-aos="fade-down").mb-0 Diccionario / Dictionary
         .col-lg-6.my-3
@@ -269,7 +269,7 @@
       .pb-3.pb-md-4(titulo="Tercera persona “S”")
         .row.justify-content-center.align-items-center.bg13.py-4.mx-0
           .col-lg-4.d-none.d-lg-block
-            img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img78.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/img78.png', alt='')
           .col-lg-7
             h4.r Tercera persona “S”
             p Cuando se emplea el tiempo presente, los verbos en la tercera persona del singular añaden una “s”:
@@ -296,7 +296,7 @@
             h4.r Según terminación “ES”
             p Es ideal tener claro que, cuando los verbos terminan en -o, -sh, -ch, -ss, -x, -y, -z, se les debe añadir “es” al final. Por ejemplo: con el verbo que termina en #[b o], como “#[i to go]”, la tercera persona del singular añade “es”.        
           .col-lg-4.d-none.d-lg-block
-            img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img80.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/img80.png', alt='')
           .col-lg-6
             .row.justify-content-center.align-items-center
               .col-lg-6
@@ -314,7 +314,7 @@
             h5.r Terminación en Y
             p Cuando el verbo termina en “#[b y]”, esta se debe cambiar por una “#[b i]” y al final agregar “#[b es]”.                   
           .col-lg-4.d-none.d-lg-block
-            img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img81.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/img81.png', alt='')
           .col-lg-6    
             .row.justify-content-center.align-items-center
               .col-lg-6
@@ -364,7 +364,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-2.col-5.mb-lg-0.mb-3
               .imagen-absolute4
-                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/img84.svg', alt='')
+                img(src='@/assets/curso/temas/img84.svg', alt='')
             .col-lg-10
               .bg15.ps-5.me-5
                 p(data-aos="fade-down").p-5.my-1 

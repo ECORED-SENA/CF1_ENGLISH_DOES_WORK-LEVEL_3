@@ -14,7 +14,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-2.col-5.mb-lg-0.mb-3
               .imagen-absolute1
-                img.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img38.svg', alt='')
+                img.img-t(src='@/assets/curso/temas/img38.svg', alt='')
             .col-lg-9
               p(data-aos="fade-down").mb-0.ps-3 #[i The desk is in front of the blackboard] / El escritorio está frente a la pizarra; o para indicar la ubicación de lugares, por ejemplo: #[i The bank is next to the hospital] / El banco está al lado del hospital.       
       .col-lg-4.my-3
@@ -30,7 +30,7 @@
         .row.justify-content-end.align-items-center
           .col-lg-2.col-5.mb-lg-0.mb-3.d-none.d-lg-block
             .imagen-absolute2
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/img41.svg', alt='')
+              img(src='@/assets/curso/temas/img41.svg', alt='')
           .col-lg-9
             SlyderE(indicadores="derecha")
               .row.justify-content-end.align-items-center
@@ -327,7 +327,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-2.col-5.mb-lg-0.mb-3
               .imagen-absolute3
-                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/img60.png', alt='')
+                img(src='@/assets/curso/temas/img60.png', alt='')
             .col-lg-9.ps-4
               p(data-aos="fade-down").mb-0.p-5 Para comunicar o informar la ubicación de un objeto o de un lugar, se hace uso de las preposiciones de lugar, para indicar en cuál sitio se encuentran, de manera que puede indicarse su posición respecto a otros objetos, personas o lugares, como también en qué sitio se ubican de acuerdo con una imagen o mapa del cual se disponga para revelar la posición o ubicación.
     p(data-aos="fade-down").mb-5.text-center Ahora, observe cómo se pueden ubicar algunos objetos que se encuentran en una habitación:

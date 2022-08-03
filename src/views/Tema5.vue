@@ -11,7 +11,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-2.col-5.mb-lg-0.mb-3
           .imagen-absolute
-            img(data-aos='zoom-in-up')(src='@/assets/curso/temas/img1.svg', alt='')
+            img(src='@/assets/curso/temas/img1.svg', alt='')
         .col-lg-10
           p(data-aos="fade-down").mb-0.p-3 Las denominadas <i>Wh questions</i> son preguntas que inician con un pronombre interrogativo (<i>what</i>  / qué, <i>how</i> / cómo, <i>when</i> / cuándo, <i>who</i> / quién, entre otros) y se utilizan para indicar el tipo de información que se requiere o necesita.
 
@@ -419,7 +419,7 @@
                         p  ¿De quién son esos crayones?
               .col-lg-2.col-5.mb-lg-0.mb-3.d-none.d-lg-block
                 .imagen-absolute5
-                  img.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/42.svg', alt='')                      
+                  img.img-t(src='@/assets/curso/temas/42.svg', alt='')                      
 
     p(data-aos="fade-down").mb-5 Entonces, se tiene la estructura de la #[i wh question] sin verbo auxiliar: 
     .row.justify-content-center.align-items-center.mb-4

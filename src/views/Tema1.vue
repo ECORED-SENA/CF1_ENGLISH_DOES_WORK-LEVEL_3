@@ -11,7 +11,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-2.col-5.mb-lg-0.mb-3
           .imagen-absolute
-            img(data-aos='zoom-in-up')(src='@/assets/curso/temas/img1.svg', alt='')
+            img(src='@/assets/curso/temas/img1.svg', alt='')
         .col-lg-10
           p(data-aos="fade-down").mb-0.p-3 Es muy común que alguna vez se haya solicitado una indicación para llegar a algún lugar, por lo que en este caso, en inglés, resulta muy fácil la forma de pedir y dar direcciones; para ello, generalmente, se hace uso del verbo ser o estar, por ejemplo:  
 
