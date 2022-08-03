@@ -246,7 +246,7 @@
           img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img77.png', alt='')
           .bgp.text-center.py-4
             h4.g(data-aos="fade-down").mb-0 Diccionario / Dictionary
-        .col-lg-6
+        .col-lg-6.my-3
           p(data-aos="fade-down") Para verificar el significado y la pronunciación, puede hacer uso de herramientas en línea como
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-6
@@ -298,8 +298,6 @@
           .col-lg-4.d-none.d-lg-block
             img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img80.png', alt='')
           .col-lg-6
-            h5.r For example:
-            p Con el verbo “#[i to eat]”, la tercera persona del singular añade la “s”:  
             .row.justify-content-center.align-items-center
               .col-lg-6
                 TraduccionAudio.color-primario(:dialogo="dialogo6")
@@ -317,9 +315,7 @@
             p Cuando el verbo termina en “#[b y]”, esta se debe cambiar por una “#[b i]” y al final agregar “#[b es]”.                   
           .col-lg-4.d-none.d-lg-block
             img.img-a.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img81.png', alt='')
-          .col-lg-6
-            h5.r For example:
-            p Con el verbo “#[i to eat]”, la tercera persona del singular añade la “s”:              
+          .col-lg-6    
             .row.justify-content-center.align-items-center
               .col-lg-6
                 TraduccionAudio.color-primario(:dialogo="dialogo11")
@@ -343,7 +339,7 @@
     .row.justify-content-center.bg14
       .col-lg-4.p-0
         img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img82.png', alt='')
-      .col-lg-8
+      .col-lg-8.my-3
         p(data-aos="fade-down").mb-4 El verbo “#[i to be]” es básico y permite expresar dos significados: ser y estar, dependiendo del resto de la oración de la cual forma parte, así como del pronombre al cual acompaña en la misma. Puede expresarse en forma afirmativa, negativa o interrogativa. Por ser un verbo irregular, debe atenderse en cada caso a su estructura, por lo que puede validar la conjugación, forma y ejemplo a través del siguiente documento: 
         .row.justify-content-start
           .col-lg-6
@@ -374,7 +370,7 @@
                 p(data-aos="fade-down").p-5.my-1 
                   span.r #[i Mary #[b is eating] her lunch]. 
                   span En este caso el verbo principal es #[i #[b  to eat]] y se le añade #[i #[b  ing = eating]]. / Mary está comiendo su almuerzo.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img83.png', alt='')
 
     p(data-aos="fade-down").mb-5 Revisemos la estructura gramatical:
@@ -455,7 +451,7 @@
     p(data-aos="fade-down").mb-5 Los verbos principales de las oraciones pueden ser regulares o irregulares. Cuando se trata de verbos irregulares, la terminación de estos cambia cuando se va a formar el gerundio. Por ejemplo:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.my-3
+      .col-lg-3.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img87.png', alt='')       
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
@@ -503,6 +499,7 @@
                 .col-lg-9                   
                   TraduccionAudio.color-primario.crd.crd--100(:dialogo="dialogo28")
 
+    p(data-aos="fade-down").mb-5 En el siguiente cuadro, puede apreciarse la estructura del presente continuo en modo afirmativo, negativo e    interrogativo: 
     .row.justify-content-center.mb-5.g-3(data-aos="zoom-in-up")
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.tarjeta-ribbon.bgcard1.p-3.h-100
@@ -670,7 +667,7 @@ export default {
       {
         textoIng:
           '<i>(To fix)</i> - Joe fix<i>es</i> the sticker on the notebook.',
-        textoEsp: 'oe fija la calcomanía en el cuaderno.',
+        textoEsp: 'Joe fija la calcomanía en el cuaderno.',
         audio: require('@/assets/curso/audios/3/31.mp3'),
       },
     ],

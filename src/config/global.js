@@ -224,27 +224,27 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Preposiciones de lugar:',
+      termino: 'Preposiciones de lugar',
       significado:
         'palabras o expresiones que nos permiten decir con exactitud la posición o lugar donde se encuentra una persona, un animal o una cosa.',
     },
     {
-      termino: 'Verbos regulares:',
+      termino: 'Verbos regulares',
       significado:
         'son aquellos verbos que pueden conjugarse en tiempo presente y futuro sin que se modifique su raíz, aunque al conjugarlo en tiempo pasado deben seguirse algunas reglas.',
     },
     {
-      termino: 'Verbos irregulares:',
+      termino: 'Verbos irregulares',
       significado:
         'son aquellos verbos que cambian al ser conjugados en tiempo pasado y al formar el participio pasado, pues no siguen un patrón típico de conjugación.',
     },
     {
-      termino: 'Verbo modal (<i>modal verbs</i>):',
+      termino: 'Verbo modal (<i>modal verbs</i>)',
       significado:
         'son aquellos verbos que permiten expresar probabilidades, necesidades, consejos, solicitudes, deberes, entre otras ideas que, en algunos casos, pueden transformarse, lo cual va a depender del mismo verbo y del contexto en el cual está inmerso.',
     },
     {
-      termino: '<em>Wh questions:</em>',
+      termino: '<em>Wh questions</em>',
       significado:
         'son preguntas que comienzan con un pronombre interrogativo, cuyas dos primeras letras son “<i>wh</i>”, como <i>where</i>, <i>when</i>, <i>who</i>, entre otros. También se incluye <i>how</i>, aun cuando no comienza con la letra “w”. Sirven para obtener información sobre algo o alguien, la hora del día, un lugar, entre otras.',
     },

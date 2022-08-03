@@ -296,12 +296,12 @@
                 td Plural
                 td <i>Are</i>
                 td <i>some rabbits.<br>a lot of people.<br>many stones.</i>
-                td Hay algunos conejos.<br> Hay muchas personas.<br> Hay      
+                td Hay algunos conejos.<br> Hay muchas personas.<br> Hay muchas piedras
       .col-lg-5
         .row.justify-content-center.align-items-center.bg19
           .col-lg-5.p-0           
             img.img-t(src='@/assets/curso/temas/img99.png', alt='')       
-          .col-lg-7
+          .col-lg-7.my-3
             p(data-aos="fade-down").mb-0 Como puede observarse, el uso de 
               span.r #[i #[b “is”]] 
               span o 

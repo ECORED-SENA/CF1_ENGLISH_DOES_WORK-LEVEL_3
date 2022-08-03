@@ -11,7 +11,7 @@
     
     p(data-aos="fade-down") Bienvenido al componente formativo 
       span.r #[b Help me, please!]
-      span #[b  / ¡Ayuda, por favor!] En el siguiente video, podrá encontrar, de forma general, la temática que estudiará:  
+      span #[b  / ¡Ayúdame, por favor!] En el siguiente video, podrá encontrar, de forma general, la temática que estudiará:  
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-12(data-aos="fade-left")     
         figure

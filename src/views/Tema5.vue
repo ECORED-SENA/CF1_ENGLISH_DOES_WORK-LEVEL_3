@@ -17,7 +17,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .row(data-aos="fade-left")
+        .row.justify-content-center.align-items-center(data-aos="fade-left")
           .col-sm-6.col-lg-4.mb-3
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -52,7 +52,7 @@
                   h5 Why  
                   p.mb-4 Por qué (para solicitar una razón).
 
-        .row(data-aos="fade-right")
+        .row.justify-content-center.align-items-center(data-aos="fade-right")
           .col-sm-6.col-lg-4.mb-3
             .tarjeta.tarjeta-flip.color-primario            
               .tarjeta-flip__contenedor
@@ -86,7 +86,7 @@
                   h5 Whose  
                   p De quién (para solicitar información sobre a quién pertenece algo).
 
-        .row(data-aos="fade-left")
+        .row.justify-content-center.align-items-center(data-aos="fade-left")
           .col-sm-6.col-lg-4.mb-3
             .tarjeta.tarjeta-flip.color-primario            
               .tarjeta-flip__contenedor
@@ -338,9 +338,11 @@
                   TarjetaAudio.color-acento-contenido.bg-white(
                     texto="Whose shirt do you prefer? "
                     :audio="require('@/assets/curso/audios/5.1/14.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"  
                   )
-
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12.up                  
+        p(data-aos="fade-down") Ahora, revise las #[i wh questions] cuando el verbo principal de la oración es el verbo “#[i to be]”, dado que no se necesita otro verbo auxiliar:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.up
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/41.png', alt='')
@@ -548,7 +550,7 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )                
               tr
-                td.tb1bg1(rowspan='2') #[i Whose shirt] (De quién)
+                td.tb1bg1(rowspan='2') #[i Whose black shirt] (De quién)
                 td.fst-italic is
                 td.fst-italic this
                 td.fst-italic -
@@ -569,7 +571,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.png', alt='')
-      .col-lg-8
+      .col-lg-8.my-3
         p(data-aos="fade-down") Cuando se habla de verbos modales, se hace referencia a unos verbos auxiliares que expresan necesidad o posibilidad en una oración: #[i CAN] y #[i COULD], en inglés. Es trascendental aprender a usarlos para expresar posibilidades, aunque también a distinguir sus significados según el tipo de frase que se emplee.
         .bg3.p-4(data-aos="flip-down") 
           p(data-aos="fade-down").mb-0 #[i CAN] y #[i COULD] permiten mejorar la forma de hablar en inglés y, a diferencia del resto de auxiliares, su forma es única. Es decir, no sufren cambios con la tercera persona del singular.
@@ -577,22 +579,22 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
         p(data-aos="fade-down") Por otro lado, el verbo principal va siempre en INFINITIVO sin to, por lo cual NUNCA se debe utilizar can to ni could to, porque se trata de un error muy grave. De hecho, ninguno de los dos utiliza esa preposición. Observe la estructura básica:
-        .row.justify-content-center.align-items-center.mx-0(data-aos="flip-down") 
+        .row.justify-content-center.align-items-center.mx-0.mb-4(data-aos="flip-down") 
           .col-lg-9.bgcol1.py-3
             p(data-aos="fade-down").mb-0 Sujeto + #[i #[b can/could]] + Infinitivo + Objeto                
           .col-lg-3.bgcol2.py-3.col-6.text-center
             p(data-aos="fade-down").mb-0 #[b Afirmativas] 
-        .row.justify-content-center.align-items-center.mx-0(data-aos="flip-down") 
+        .row.justify-content-center.align-items-center.mx-0.mb-4(data-aos="flip-down") 
           .col-lg-9.bgcol1.py-3
             p(data-aos="fade-down").mb-0 Sujeto + #[i #[b can’t / couldn’t]] + Infinitivo + Objeto      
           .col-lg-3.bgcol2.py-3.col-6.text-center
             p(data-aos="fade-down").mb-0 #[b Negativa] 
-        .row.justify-content-center.align-items-center.mx-0(data-aos="flip-down") 
+        .row.justify-content-center.align-items-center.mx-0.mb-4(data-aos="flip-down") 
           .col-lg-9.bgcol1.py-3
             p(data-aos="fade-down").mb-0 #[i #[b Can/Could]] + Sujeto + Infinitivo + Objeto?     
           .col-lg-3.bgcol2.py-3.col-6.text-center
             p(data-aos="fade-down").mb-0 #[b Interrogativa] 
-        .row.justify-content-center.align-items-center.mx-0(data-aos="flip-down") 
+        .row.justify-content-center.align-items-center.mx-0.mb-4(data-aos="flip-down") 
           .col-lg-9.bgcol1.py-3
             p(data-aos="fade-down").mb-0 Wh Question + #[i #[b can/could]] + Sujeto + Infinitivo + Objeto?     
           .col-lg-3.bgcol2.py-3.col-6.text-center
@@ -655,7 +657,7 @@
     p(data-aos="fade-down").mb-5 Cabe destacar que en las wh questions también se utilizan verbos modales, como se puede observar a continuación:
 
     .row.justify-content-center.align-items-start
-      .col-lg-3
+      .col-lg-3.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/50.png', alt='')
       .col-lg-9
         TabsA.color-acento-botones.mb-5

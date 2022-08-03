@@ -17,7 +17,7 @@
                 img.img-t(data-aos='zoom-in-up')(src='@/assets/curso/temas/img38.svg', alt='')
             .col-lg-9
               p(data-aos="fade-down").mb-0.ps-3 #[i The desk is in front of the blackboard] / El escritorio está frente a la pizarra; o para indicar la ubicación de lugares, por ejemplo: #[i The bank is next to the hospital] / El banco está al lado del hospital.       
-      .col-lg-4
+      .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img39.svg', alt='')
 
     Separador 
@@ -28,7 +28,7 @@
     .bg7.p-5.position-relative
       .tarjeta.bg8.p-4
         .row.justify-content-end.align-items-center
-          .col-lg-2.col-5.mb-lg-0.mb-3
+          .col-lg-2.col-5.mb-lg-0.mb-3.d-none.d-lg-block
             .imagen-absolute2
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/img41.svg', alt='')
           .col-lg-9
