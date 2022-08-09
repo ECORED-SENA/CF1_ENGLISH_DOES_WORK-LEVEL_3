@@ -209,7 +209,7 @@
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img28.svg', alt='')
 
     p(data-aos="fade-down").mb-5 A continuación, se detalla la estructura gramatical para preguntar y responder acerca del lugar donde se encuentra un establecimiento. Observe el mapa, escuche, repita y aprenda:
-    .bg5.p-5
+    .bg5.p-5.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-10    
           .row.justify-content-center.align-items-center
@@ -425,6 +425,8 @@
                 .col-lg-4              
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img37.svg', alt='')
 
+    titulo-segundo.color-acento-contenido.mt-5(data-aos='fade-right')
+      h2 Actividad didáctica 
     .row.mt-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
