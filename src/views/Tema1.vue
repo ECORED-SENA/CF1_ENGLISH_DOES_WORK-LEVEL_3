@@ -34,155 +34,155 @@
       h2 1.1  Lugares de la ciudad
     p(data-aos="fade-down").mb-5 En toda ciudad existen diversos lugares, como museos, teatros, cines, restaurantes, hospitales, bancos, parques, centros comerciales, tiendas, entre otros. A continuación, se presenta una lista con algunos de estos lugares. Escuche y repita: 
 
-    SlyderF.slyder-arrows.mb-5(columnas="col-lg-6 col-xl-2")(data-aos="fade-left")
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img4.png')})`}" style='height: 394px')
+    SlyderF.slyder-arrows.mb-5(columnas="col-lg-6 col-xl-3")(data-aos="fade-left")
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img4.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Avenue.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Avenue
             br
             | (Avenida) 
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img5.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img5.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Bakery.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Bakery
             br
             | (Panadería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img6.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img6.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Bank.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Bank
             br
             | (Banco)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img7.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img7.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Barber_shop.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Barber shop
             br
             | (Barbería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img8.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img8.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Bookstore.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Bookstore
             br
             | (Librería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img9.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img9.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Cake_shop.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Cake shop
             br
             | (Pastelería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img10.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img10.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Cinema_movies.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Cinema, movies
             br
             | (Cine)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img11.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img11.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Fire_station.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Fire station
             br
             | (Estación de bomberos)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img12.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img12.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Gym.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Gym
             br
             | (Gimnasio)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img13.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img13.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Hospital.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Hospital
             br
             | (Hospital)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img14.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img14.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Library.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Library
             br
             | (Biblioteca) 
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img15.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img15.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Mall.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Mall
             br
             | (Centro comercial)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img16.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img16.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Police_station.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Police station
             br
             | (Estación de policía)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img17.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img17.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Post_office.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Post office
             br
             | (Oficina de correos)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img18.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img18.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Restaurant.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Restaurant
             br
             | (Restaurante)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img19.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img19.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/School.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold School
             br
             | (Escuela)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img20.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img20.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Shoe_shop.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Shoe shop
             br
             | (Zapatería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img21.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img21.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Shop.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Shop
             br
             | (Tienda)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img22.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img22.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Street.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Street
             br
             | (Calle)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img23.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img23.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-2.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Supermarket.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Supermarket
             br
             | (Supermercado) 
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img24.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img24.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/Theater.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Theater
             br
             | (Teatro)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/img25.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.bg-card(:style="{'background-image': `url(${require('@/assets/curso/temas/img25.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/curso/audios/1.1/University.mp3')")
           p.text-center
