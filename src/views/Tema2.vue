@@ -407,7 +407,24 @@
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Titulo de actividad - Completa la conversación.
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
-
+      
+    .row.mt-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/arrastrar.svg", alt="")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Preposiciones de lugar
+        p.mb-4 #[i Where are you?] / ¿Dónde estás?
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Arrastrar y soltar
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/02/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 </template>
 
 <script>
